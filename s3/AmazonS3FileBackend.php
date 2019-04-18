@@ -21,7 +21,7 @@
  * @file
  */
 
-if ( !class_exists("\\AWS\\S3\\S3Client" )) {
+if ( !class_exists("\\Aws\\S3\\S3Client" )) {
     require_once __DIR__ . '/../vendor/autoload.php';
 }
 
